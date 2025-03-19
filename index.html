@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="URL_TO_IMAGE">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/image-4/logo.jpg">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Lato">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <!-- <link rel="stylesheet" href="fonts/font-awesome.css"> -->
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Feather Touch</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-white d-none d-lg-flex topbar">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+              <!---  <small class="ms-4"><i class="fa fa-envelope me-3"></i><a href="mailto:email@gmail.com" style="color: white;">email@gmail.com</a></small>-->
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:+919940963798" style="color: white;">+91 99409 63798</a></small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:+919944333510" style="color: white;">+91 99443 33510</a></small>
+                <!-- <div class="ms-auto d-flex align-items-center">
+                    <div class="ms-3 d-flex icons">
+                        <a class="btn btn-sm-square btn-light ms-2" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light ms-2" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light ms-2" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-light ms-2" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+   <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <img src="img/image-4/logo.jpg" alt="Logo" style="height: 70px; margin-right: 10px;">
+    <h4 class="m-0" style="color: var(--brand);">Feather Touch</h4>
+    
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#boutique" class="nav-item nav-link">Boutique</a>
+            <a href="#makeup" class="nav-item nav-link">Makeupartist</a>
+            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+         <!--- <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <div class="dropdown-menu bg-light m-0">
+                    <a href="feature.html" class="dropdown-item">Feature</a>
+                    <a href="quote.html" class="dropdown-item">Free Quote</a>
+                    <a href="team.html" class="dropdown-item">Our Team</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    <a href="404.html" class="dropdown-item">404 Page</a>
+                </div>
+            </div>-->
+            <a href="#contact" class="nav-item nav-link">Contact</a>
+        </div>
+       <!--- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
+    </div>
+</nav>
+<!-- Navbar End -->
+  
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative" data-dot="<img src='img/image-4/slide3.jpg'>">
+            <img class="img-fluid" src="img/image-4/slide3.jpg" alt="">
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Elevate Your Bridal Makeup</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">"Transform your look with our expert bridal makeup. Experience a flawless finish that enhances your natural beauty and ensures you shine on your special day."</p>
+                            <a href="#about" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel-item position-relative" data-dot="<img src='img/image-4/slide1.jpg'>">
+            <img class="img-fluid" src="img/image-4/slide1.jpg" alt="">
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Enhance Your Wedding Look</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">"Add a touch of elegance with our bespoke bridal flowers. Fresh, vibrant arrangements that beautifully complement your wedding attire."</p>
+                            <a href="#makeup" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel-item position-relative" data-dot="<img src='img/image-3/slider3.jpg'>">
+            <img class="img-fluid" src="img/image-3/slider3.jpg" alt="">
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Elegant Blouse Chudidar Aari Work</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">"Experience the art of intricate aari work on your blouse and chudidar. Perfect for adding a touch of tradition and elegance."</p>
+                            <a href="#boutique" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+
+ <!-- About Start -->
+ <div class="container-xxl py-6" id="about">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/image-4/slide2.jpg" alt="" style="object-fit: cover;">
+                    <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="img/image-4/slide3.jpg" alt="" style="width: 200px; height: 200px;">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="h-100">
+                    <h2 class="text-primary text-uppercase mb-2">About Us</h2>
+                    <p>Welcome to Feather Touch Boutique & Makeupartist, where tradition meets elegance and creativity. Our boutique offers a range of meticulously crafted garments, including blouse chudidar aari work, fabric painting, and customized women's dresses, ensuring every piece is unique and stylish. For special moments, we provide professional makeup services such as bridal makeup, mehndi, and model shoots, enhancing your natural beauty with a touch of artistry. At Feather Touch, our dedicated team is committed to delivering exceptional quality and personalized service, making you look and feel your best for any occasion.</p>
+                 <!---   <div class="row g-2 mb-4 pb-2">
+                        <div class="col-sm-6">
+                            <i class="fa fa-check text-primary me-2"></i>Fully Licensed
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fa fa-check text-primary me-2"></i>Online Tracking
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fa fa-check text-primary me-2"></i>Afordable Fee 
+                        </div>
+                        <div class="col-sm-6">
+                            <i class="fa fa-check text-primary me-2"></i>Best Trainers
+                        </div>
+                    </div> -->
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <a href="#boutique" class="btn btn-primary py-3 px-5" href="">Read More</a>
+                        </div>
+                      <!---<div class="col-sm-6">
+                            <a class="d-inline-flex align-items-center btn btn-outline-primary border-2 p-2" href="tel:+0123456789">
+                                <span class="flex-shrink-0 btn-square bg-primary">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </span>
+                                <span class="px-3">+012 345 6789</span>
+                            </a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br><br>
+<!-- About End -->
+
+ <h3 class="my-3 wow zoomIn" data-wow-delay="0.3s" style="text-align: center;">Feather Touch Boutique</h3>
+    <p style="text-align: center;">At Feather Touch Boutique, we blend tradition with contemporary style, crafting
+        unique and beautiful garments that reflect your personal elegance. Our boutique offers a wide range of services
+        and products designed to meet your fashion and beauty needs.</p>
+
+
+        <!-- services strat  -->
+
+        <div class="container-fluid services py-5" id="boutique">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 800px;">
+                <p class="fs-4 text-uppercase text-center text-primary wow zoomIn" data-wow-delay="0.3s">Our Offerings</p>
+                <h2 class="display-3 wow zoomIn" data-wow-delay="0.3s">Boutique Services</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4 ">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Blouse & Chudidar Aari Work</h3>
+                                    <p>Discover the exquisite beauty of Aari work, an intricate embroidery style that adds elegance to your blouses and chudidars. Perfect for special occasions and traditional events.</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/image-2/img-71.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/image-2/img-2.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Brooch Work</h3>
+                                    <p>Add a touch of sophistication to your outfits with our custom brooch designs. Our skilled artisans create stunning pieces that make your attire stand out.</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- seecound row  -->
+            <div class="row g-4">
+                <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Fabric Painting</h3>
+                                    <p>Transform your clothing into works of art with our fabric painting services. Our designs range from subtle elegance to vibrant statements, tailored to your preferences.</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/image-2/img-28.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/image-2/img-75.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Embroidery Work</h3>
+                                    <p>Experience the timeless art of embroidery with our skilled craftsmen. We offer a variety of designs that add charm and character to your garments</p>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- custom fashion  -->
+<div class="container-fluid services py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center mb-5 wow zoomIn" data-wow-delay="0.3s" style="max-width: 800px;">
+            <h2 class="display-3">Customized Fashion</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="services-content text-end">
+                                <h3>Photoshoot Dresses</h3>
+                                <p>Capture your special moments in style with our exclusive photoshoot dresses, designed to enhance your natural beauty and make every picture perfect.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/image-2/img-76.jpeg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/image-2/img-78.jpeg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="services-content text-start">
+                                <h3>Kids’ Dress Customization</h3>
+                                <p>Give your little ones a unique look with our custom-designed kids' dresses. We create adorable and comfortable outfits for every occasion.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seecound row  -->
+        <div class="row g-4">
+            <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="services-content text-end">
+                                <h3>Customized Women's Dresses</h3>
+                                <p>Tailor-made to fit your style and personality, our customized women's dresses are perfect for those who want to stand out with a unique fashion statement.</p>
+                               
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/image-2/img-77.jpeg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow zoomIn" data-wow-delay="0.3s">
+                <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/image-2/img-65.jpeg" class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="services-content text-start">
+                                <h3>Mom & Daughter Combo</h3>
+                                <p>Celebrate the special bond with matching outfits for moms and daughters. Our combos are designed to create beautiful memories and standout fashion moments.</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   
+
+
+
+ <!-- makeup artist start -->
+<div class="container-xxl py-5" id="makeup">
+    <div class="mx-auto text-center mb-5 wow zoomIn" data-wow-delay="0.3s" style="max-width: 800px;">
+        <h2 class="display-3">Makeup Artist</h2>
+    </div>
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-0 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-2/img-68.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Bridal Makeup</h1>
+                            <p>At Feather Touch, we specialize in creating stunning bridal looks that enhance your natural beauty and suit your personal style. Our expert makeup artists use high-quality products and the latest techniques to ensure your makeup stays flawless throughout your special day. From traditional to contemporary styles, we cater to all bridal makeup needs, making you look radiant and elegant as you walk down the aisle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Saree Box Folding</h1>
+                            <p>Our saree box folding service ensures that your saree is neatly and beautifully folded, making it easy to carry and store. This traditional method of folding not only preserves the saree's fabric and embroidery but also adds a touch of sophistication to your bridal trousseau. Let us handle the intricate details so you can focus on enjoying your special moments.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-2/img-56.jpeg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-2/img-39.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Bridal Flowers</h1>
+                            <p>We provide exquisite bridal flowers that complement your wedding attire. From floral arrangements for your hair to beautiful bouquets, our skilled florists create designs that match your style and theme. Using fresh, vibrant flowers, we ensure that you look enchanting and your floral accessories add to the overall charm of your bridal look.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Rental Jewellery</h1>
+                            <p>Feather Touch offers a wide range of luxurious jewellery available for rent, perfect for brides who want to adorn themselves with stunning pieces without the permanent investment. Our collection includes traditional and contemporary designs, ensuring you find the perfect jewellery to match your wedding outfit and style, adding a touch of glamour to your special day.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-2/img-51.jpeg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-2/img-40.jpeg" alt="">
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Professional Mehndi</h1>
+                            <p>Our professional mehndi artists create intricate and beautiful mehndi designs that adorn your hands and feet. Using high-quality henna, we ensure that your mehndi is rich in color and lasts long. Whether you prefer traditional patterns or modern designs, our artists will work with you to create the perfect look for your wedding or special occasion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Nail Art</h1>
+                            <p>Enhance your bridal look with our creative and stylish nail art services. Our nail artists use high-quality products and innovative techniques to create designs that complement your wedding attire. From simple elegance to elaborate patterns, we ensure your nails are a perfect match for your special day.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-4/nail art.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-4/plate-decoration.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Plate Decoration</h1>
+                            <p>Our plate decoration service adds a touch of elegance to your ceremonial plates. Whether it's for a wedding, engagement, or any other special occasion, we create beautifully decorated plates that enhance the aesthetic appeal of your event. Using a variety of materials and designs, we ensure each plate is a work of art.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Model Shoot</h1>
+                            <p>Feather Touch provides professional makeup and styling services for model shoots. Our makeup artists work closely with photographers and models to create stunning looks that enhance the visual appeal of the photos. Whether it's for fashion, beauty, or commercial shoots, we ensure you look your best on camera.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-2/img-69.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 order-0 order-lg-1 wow zoomIn" data-wow-delay="0.3s">
+                        <img class="img-fluid rounded w-100" src="img/image-4/plate-decoration.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-0 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="mb-4">
+                            <h1 class="mb-3">Thamboolam Bag</h1>
+                            <p>Our Thamboolam bag service offers specially crafted bags that are perfect for your Thamboolam needs. These bags are designed with attention to detail and can be customized to match the theme of your event. Ideal for weddings and special occasions, our Thamboolam bags add a touch of tradition and elegance to your celebrations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  End -->
+
+
+<!-- ------------------------------------------------------------------------------------------  -->
+<div class="untree_co-section" id="gallery" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center mb-5">Image Gallery</h1>
+        <div class="col-md-6 col-lg-4 item">
+          <a href="img/image-2/img-7.jpeg" class="item-wrap fancybox mb-4" data-fancybox="gal" data-aos="fade-up" data-aos-delay="0">
+            <i class='bx bx-search-alt-2' ></i>
+            <img class="img-fluid" src="img/image-2/img-7.jpeg">
+          </a>
+          <a href="img/image-2/img-2.jpeg" class="item-wrap fancybox mb-4" data-fancybox="gal" data-aos="fade-up" data-aos-delay="0">
+            <i class='bx bx-search-alt-2' ></i>
+            <img class="img-fluid" src="img/image-2/img-2.jpeg">
+          </a>
+         
+        </div>
+        <div class="col-md-6 col-lg-4 item">
+          <a href="img/image-2/img-8.jpeg" class="item-wrap fancybox mb-4" data-fancybox="gal" data-aos="fade-up" data-aos-delay="0">
+            <i class='bx bx-search-alt-2' ></i>
+            <img class="img-fluid" src="img/image-2/img-8.jpeg">
+          </a>
+          <a href="img/image-2/img-4.jpeg" class="item-wrap fancybox mb-4" data-fancybox="gal" data-aos="fade-up" data-aos-delay="0">
+            <i class='bx bx-search-alt-2' ></i>
+            <img class="img-fluid" src="img/image-2/img-4.jpeg">
+          </a>
+         
+        </div>
+        <div class="col-md-6 col-lg-4 item">
+          <a href="img/image-2/img-5.jpeg" class="item-wrap fancybox mb-4" data-fancybox="gal" data-aos="fade-up" data-aos-delay="0">
+            <i class='bx bx-search-alt-2' ></i>
+            <img class="img-fluid" src="img/image-2/img-5.jpeg">
+          </a>
+          <a href="img/image-2/img-6.jpeg" class="item-wrap fancybox mb-4" data-fancybox="gal" data-aos="fade-up" data-aos-delay="0">
+            <i class='bx bx-search-alt-2' ></i>
+            <img class="img-fluid" src="img/image-2/img-6.jpeg">
+          </a>
+         
+        </div>
+      </div>
+      <div class="gallery-button">
+      <a href="gallery.html" class="btn-slider hvr-rectangle-out text-white">Load More</a>
+      </div>
+    </div>
+  </div>
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5" id="contact">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center fw-normal">Contact Us</h5>
+                <h2 class="mb-5">Contact For Any Query</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="row gy-4 text-center">
+                        <div class="col-lg-6 col-md-4 wow zoomIn" data-wow-delay="0.1s">
+                            <h5 class="section-title ff-secondary fw-normal pb-3">Mobile</h5>
+                            <p>
+                                <i class="fa fa-phone-alt text-brand me-2"></i>+91 99409 63798<br>
+                                <i class="fa fa-phone-alt text-brand me-2"></i>+91 99443 33510
+                            </p>
+                        </div>
+                        <!--<div class="col-md-4 wow zoomIn" data-wow-delay="0.7s">
+                            <h5 class="section-title ff-secondary fw-normal pb-3">Email</h5>
+                            <p><i class="fa fa-envelope-open text-brand me-2"></i>zaxoclothing@gmail.com</p>
+                        </div>-->
+                        <div class="col-lg-6 col-md-4 wow zoomIn" data-wow-delay="0.1s">
+                            <h5 class="section-title ff-secondary fw-normal pb-3">Location</h5>
+                            <p><i class="bi bi-geo-alt-fill text-brand me-2"></i>No.2, P.M Samy Colony,<br>Near Ranjith's Blessing Catering,<br>Rathinapuri, Coimbatore - 641 027.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1784643588403!2d76.96312507417606!3d11.02523325455687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858581f18f96f%3A0xf367f8882f064ae7!2sRanjith&#39;s%20blessing%20catering!5e0!3m2!1sen!2sin!4v1723120392698!5m2!1sen!2sin" frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+                <!-- <div class="col-md-6">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+                        <form action="contact.php" method="post">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Your Phone"  name="phone" required>
+                                        <label for="subject">Phone</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" name="comments" required></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-brand w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+   
+    <!-- Footer Start -->
+    <div class="container-fluid footer pt-5 wow fadeIn" data-wow-delay="0.1s" id="home">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6">
+                    <h4 class="mb-4 footer-head">Feather Touch Boutique & Makeupartist</h4>
+                    <p class="footer-color">Welcome to Feather Touch Boutique & Makeupartist, where tradition meets elegance and creativity. Our boutique offers a range of meticulously crafted garments, including blouse chudidar aari work, fabric painting, and customized women's dresses, ensuring every piece is unique and stylish. For special moments, we provide professional makeup services such as bridal makeup, mehndi, and model shoots, enhancing your natural beauty with a touch of artistry. At Feather Touch, our dedicated team is committed to delivering exceptional quality and personalized service, making you look and feel your best for any occasion.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-4 footer-head">Quick Links</h4>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="#boutique">Boutique </a>
+                    <a class="btn btn-link" href="#makeup">Makeupartist</a>
+                    <a class="btn btn-link" href="gallery.html">Gallery</a>
+                    <a class="btn btn-link" href="#contact">Contact Us</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="mb-4 footer-head">Address</h4>
+                    <p class="mb-2 footer-color"><i class="fa fa-map-marker-alt me-3"></i>No.2, P.M Samy Colony,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Near Ranjith's Blessing Catering, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rathinapuri, Coimbatore - 641 027.</p>
+                    <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 99409 63798</p>
+                    <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 99443 33510</p>
+                <!---    <p class="mb-2 footer-color"><i class="fa fa-envelope me-3"></i>email@gmail.com</p>-->
+                    <!-- <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0 footer-color">
+                        &copy; Copyright 2024 <a class="border-bottom" href="index.html">Feather Touch</a> , All Right Reserved. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex;align-items: center;justify-content: center;">
+                                <form class="col-12 row g-3" action="contact.php" name="contactform" 
+                                method="post">
+                                    <div>
+                                        <h4 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h4>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Name</label>
+                                        <input type="text" name="name" class="form-control" 
+                                        placeholder="Name" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Phone</label>
+                                        <input type="text" name="phone" class="form-control" 
+                                        placeholder="Phone" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label" style="color: black;">Email</label>
+                                        <input type="email" name="email" class="form-control" 
+                                        placeholder="Email"
+                                            id="userName" aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                        <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label" style="color: black;">Message</label>
+                                        <textarea name="comments" placeholder="Enter Your Message"
+                                            class="form-control" id="" rows="2" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" style="background-color: #fc7341;color: white;border: 1px solid #fc7341;padding: 8px 20px;border-radius: 3px;">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded back-to-top" data-aos="zoom-in"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Float Icons -->
+    <a href="tel:+919940963798" class="float">
+        <i class='bx bxs-phone my-float'></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=+919940963798&text=I am interested in your services." class="float-2" target="_blank">
+        <i class='fab fa-whatsapp my-float'></i>
+    </a>
+
+    <!-- Main JS File -->
+    <script src="js/default.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/slick/slick-animation.min.js"></script>
+    <script src="assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="js/roberto.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            
+            // Initiate the wowjs
+            new WOW().init();
+            
+        })(jQuery);
+    </script>
+    <script>
+        // Back to top button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+            });
+            $('.back-to-top').click(function () {
+            $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+            return false;
+        });
+    </script>
+    <script>
+        // Animation on scroll
+        window.addEventListener('load', () => {
+            AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+            })
+        });
+    </script>
+</body>
+</html>
